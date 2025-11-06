@@ -36,7 +36,9 @@ fun DateApp(
             }
             composable(route = Navigasi.Detail.name){
                 TampilData(
-
+                    onBackBtnClick = {
+                        cancelAndBackToFormulirku(navController)
+                    }
                 )
             }
         }
