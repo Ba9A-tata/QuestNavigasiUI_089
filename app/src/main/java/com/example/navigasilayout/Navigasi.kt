@@ -34,6 +34,11 @@ fun DateApp(
                     }
                 )
             }
+            composable(route = Navigasi.Detail.name){
+                TampilData(
+
+                )
+            }
         }
     }
 }
